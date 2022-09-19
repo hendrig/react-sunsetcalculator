@@ -1,9 +1,12 @@
 import React from "react";
+import Calculator from "./components/Calculator";
+import Header from "./components/UI/Header";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Sunset Calculator</h1>
+      <Header />
+      <Calculator />
     </div>
   );
 }
